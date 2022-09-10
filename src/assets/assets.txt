@@ -1,0 +1,2 @@
+blue color : #111F37
+yellow type color : #F9C32D

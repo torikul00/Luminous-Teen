@@ -1,0 +1,48 @@
+nav {
+    width: 100%;
+    -webkit-box-shadow: 0px 7px 19px -4px rgba(0, 0, 0, 0.096);
+    box-shadow: 0px 7px 19px -4px rgba(0, 0, 0, 0.082);
+
+    padding: 15px 120px !important;
+
+}
+
+.logo {
+    width: 60px;
+}
+
+.topbarLinks {
+    font-size: 14px;
+    
+}
+.topbarLinks a {
+    color: rgb(51, 51, 51)!important;
+    font-weight: 600;
+    margin-right: 15px;
+    transition: 0.4s;
+}
+.topbarLinks a:hover{
+    color: #F9C32D!important;
+}
+
+.topbarButton {
+    width: 100px;
+    background-color: #111F37;
+    color: #F9C32D;
+    border: 4px solid #F9C32D;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 10px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.topbarButton:hover{
+    background-color: #F9C32D;
+    color: #111F37;
+    border: 4px solid #111F37;
+}
+@media only screen and (max-width:600px) {
+    nav{
+        padding: 20px!important;
+    }
+}
